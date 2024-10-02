@@ -1,0 +1,110 @@
+{
+    "data": {
+        "batch_number": "B20240910-33",
+        "lots": [
+            {
+                "lot_number": "LOT202409101",
+                "collections": [
+                    {
+                        "collection_number": "COL202409101",
+                        "collection_quantity": "1000"
+                    }
+                ]
+            }
+        ],
+        "product_name": "BATIAN"
+    },
+    "file_id": "0.0.4875402",
+    "0": {
+        "data": {
+            "batch_number": "B20240909-34",
+            "lots": [
+                {
+                    "lot_number": "LOT202409091",
+                    "collections": [
+                        {
+                            "collection_number": "COL202409091",
+                            "collection_quantity": "89.5"
+                        }
+                    ]
+                }
+            ],
+            "product_name": "BATIAN"
+        },
+        "file_id": "0.0.4875513"
+    },
+    "1": {
+        "data": {
+            "batch_number": "B20240907-35",
+            "lots": [
+                {
+                    "lot_number": "LOT202409071",
+                    "collections": [
+                        {
+                            "collection_number": "COL202409071",
+                            "collection_quantity": "89.0"
+                        }
+                    ]
+                }
+            ],
+            "product_name": "BATIAN"
+        },
+        "file_id": "0.0.4875680"
+    },
+    "2": {
+        "data": {
+            "batch_number": "B20240904-36",
+            "lots": [
+                {
+                    "lot_number": "LOT202409041",
+                    "collections": [
+                        {
+                            "collection_number": "COL202409041",
+                            "collection_quantity": "30"
+                        },
+                        {
+                            "collection_number": "COL202409042",
+                            "collection_quantity": "24.5"
+                        }
+                    ]
+                }
+            ],
+            "product_name": "BATIAN, RUIRU 11"
+        },
+        "file_id": "0.0.4875686"
+    },
+    "3": {
+        "data": {
+            "batch_number": "B20240721-42",
+            "lots": [
+                {
+                    "lot_number": "LOT202407211",
+                    "collections": [
+                        {
+                            "collection_number": "COL202407211",
+                            "collection_quantity": "23"
+                            
+                        }
+                    ,
+                    
+                       {
+                            "collection_number": "COL202407211",
+                            "collection_quantity": "23"
+                            
+                        }
+                    ,
+                                            
+                        {
+                            "collection_number": "COL202407211",
+                            "collection_quantity": "23"
+                            
+                        }
+                        
+                    ]
+                }
+            ],
+            "product_name": "BATIAN"
+        },
+        "file_id": "0.0.7199508"
+    }
+}
