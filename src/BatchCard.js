@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import LotCard from './LotCard'; // Import LotCard component
+import LotCard from './LotCard'; 
 
 function BatchCard({ batchData, fileId }) {
   // State to toggle the batch's expand/collapse state
@@ -22,7 +22,7 @@ function BatchCard({ batchData, fileId }) {
       {isBatchExpanded && (
         <div className="details">
           {batchData.lots.map((lot, index) => (
-            <LotCard key={index} lot={lot} /> // Render each lot
+            <LotCard key={index} lot={lot} /> 
           ))}
           <a href={`https://app.dragonglass.me/hedera/search?q=${fileId}`} className="external-link" target="_blank" rel="noopener noreferrer">
             File ID: {fileId}
