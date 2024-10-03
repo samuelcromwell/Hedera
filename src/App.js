@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Product Dashboard</h1>
+      <h1>Shamba Traceability</h1>
       <BatchCard batchData={data.data} fileId={data.file_id} />
       {Object.keys(data).filter(key => !isNaN(key)).map(key => (
         <BatchCard key={key} batchData={data[key].data} fileId={data[key].file_id} />

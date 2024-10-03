@@ -1,4 +1,9 @@
 .App {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers the cards horizontally */
+  justify-content: flex-start;
+  min-height: 100vh; /* Ensures vertical centering */
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
   padding: 20px;
@@ -10,6 +15,8 @@
 }
 
 .batch-card, .lot-card {
+  width: 80%; /* Adjust the width of the cards as needed */
+  max-width: 700px; /* Ensures the cards don't get too large */
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 8px;
@@ -68,15 +75,7 @@
   color: #555;
 }
 
-.details {
-  display: none;
-  margin-top: 15px;
-  border-top: 1px solid #ddd;
-  padding-top: 15px;
-}
-
 .batch-card .details, 
 .lot-card .details {
   display: block; 
 }
-
